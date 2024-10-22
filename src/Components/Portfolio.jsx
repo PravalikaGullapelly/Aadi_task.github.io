@@ -31,28 +31,22 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Simple Calculator using HTML, CSS, and JavaScript",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This project is a basic calculator built with HTML, CSS, and JavaScript that performs simple arithmetic operations such as addition, subtraction, multiplication, and division. The interface is designed to be clean and user-friendly, featuring clickable buttons for input and a display screen for results. JavaScript handles the core functionality, while HTML structures the layout, and CSS provides styling for an intuitive user experience.",
+    url: "https://github.com/PravalikaGullapelly/OIBSIP_TASK1",
   },
   {
-    title: "Web Development for Beginners",
+    title: "To-Do List Application using HTML, CSS, and JavaScript",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This project is a simple and interactive To-Do List app developed with HTML, CSS, and JavaScript. Users can add, delete, and mark tasks as completed in an intuitive interface. The app features a dynamic list that updates in real-time, allowing users to efficiently manage their tasks. JavaScript handles task management and interactions, while HTML provides the structure and CSS enhances the overall visual design, making the app user-friendly and responsive.",
+    url: "https://github.com/PravalikaGullapelly/OIBSIP_TASK3",
   },
   {
-    title: "My Resume Site",
+    title: "Credit-Card-Fraud-Detection-Using-Logistic-Regression",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Credit Card Fraud Detection project aims to develop a machine learning model to identify fraudulent transactions in credit card data. Given the significant rise in online transactions, detecting fraud is crucial for financial institutions to mitigate risks and protect customers.",
+    url: "https://github.com/PravalikaGullapelly/Credit-Card-Fraud-Detection-Using-Logistic-Regression",
   },
 ];
 
