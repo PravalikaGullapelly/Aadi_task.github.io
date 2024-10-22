@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"1xC6H":[function(require,module,exports) {
+})({"if119":[function(require,module,exports) {
 var Refresh = require("react-refresh/runtime");
 var ErrorOverlay = require("react-error-overlay");
 Refresh.injectIntoGlobalHook(window);
@@ -163,11 +163,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"react-refresh/runtime":"786KC","react-error-overlay":"1dldy"}],"786KC":[function(require,module,exports) {
+},{"react-refresh/runtime":"fkNcA","react-error-overlay":"d5xvU"}],"fkNcA":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-refresh-runtime.development.js");
 
-},{"./cjs/react-refresh-runtime.development.js":"hdge7"}],"hdge7":[function(require,module,exports) {
+},{"./cjs/react-refresh-runtime.development.js":"3R8g1"}],"3R8g1":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -627,7 +627,7 @@ module.exports = require("./cjs/react-refresh-runtime.development.js");
     exports.setSignature = setSignature;
 })();
 
-},{}],"1dldy":[function(require,module,exports) {
+},{}],"d5xvU":[function(require,module,exports) {
 var process = require("process");
 !function(e, t) {
     module.exports = t();
@@ -2358,7 +2358,7 @@ var process = require("process");
     ]);
 });
 
-},{"process":"d5jf4"}],"d5jf4":[function(require,module,exports) {
+},{"process":"i3xDS"}],"i3xDS":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -2503,7 +2503,7 @@ process.umask = function() {
     return 0;
 };
 
-},{}],"ShInH":[function(require,module,exports) {
+},{}],"1qoee":[function(require,module,exports) {
 "use strict";
 var global = arguments[3];
 var HMR_HOST = null;
@@ -2919,11 +2919,11 @@ var _appDefault = parcelHelpers.interopDefault(_app);
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","./App":"e9Zfo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"670SQ","react":"icvoD","react-dom":"g6brc","./App":"e9Zfo","@parcel/transformer-js/src/esmodule-helpers.js":"4Cq2J","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"3La0u"}],"670SQ":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
-},{"./cjs/react-jsx-dev-runtime.development.js":"48uCM"}],"48uCM":[function(require,module,exports) {
+},{"./cjs/react-jsx-dev-runtime.development.js":"1LUNN"}],"1LUNN":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-dev-runtime.development.js
@@ -3752,11 +3752,11 @@ module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"react":"21dqq"}],"21dqq":[function(require,module,exports) {
+},{"react":"icvoD"}],"icvoD":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react.development.js");
 
-},{"./cjs/react.development.js":"6YvXz"}],"6YvXz":[function(require,module,exports) {
+},{"./cjs/react.development.js":"3QQfS"}],"3QQfS":[function(require,module,exports) {
 /**
  * @license React
  * react.development.js
@@ -5620,7 +5620,7 @@ module.exports = require("./cjs/react.development.js");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"j6uA9":[function(require,module,exports) {
+},{}],"g6brc":[function(require,module,exports) {
 "use strict";
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === "undefined" || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== "function") return;
@@ -5636,7 +5636,7 @@ function checkDCE() {
 }
 module.exports = require("./cjs/react-dom.development.js");
 
-},{"./cjs/react-dom.development.js":"3iA9v"}],"3iA9v":[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":"3fAV2"}],"3fAV2":[function(require,module,exports) {
 /**
  * @license React
  * react-dom.development.js
@@ -26593,11 +26593,11 @@ module.exports = require("./cjs/react-dom.development.js");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"react":"21dqq","scheduler":"juvHo"}],"juvHo":[function(require,module,exports) {
+},{"react":"icvoD","scheduler":"83obJ"}],"83obJ":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/scheduler.development.js");
 
-},{"./cjs/scheduler.development.js":"RqdIf"}],"RqdIf":[function(require,module,exports) {
+},{"./cjs/scheduler.development.js":"lSHdm"}],"lSHdm":[function(require,module,exports) {
 /**
  * @license React
  * scheduler.development.js
@@ -27151,7 +27151,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kouZu":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"670SQ","react":"icvoD","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"4Cq2J","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"3La0u"}],"kouZu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$17a8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27298,10 +27298,10 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/motion-background.jpg":"kzNvo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kzNvo":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"670SQ","react":"icvoD","../images/motion-background.jpg":"aTxqY","@parcel/transformer-js/src/esmodule-helpers.js":"4Cq2J","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"3La0u"}],"aTxqY":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "motion-background.0a6a8db0.jpg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+},{"./helpers/bundle-url":"8fOvo"}],"8fOvo":[function(require,module,exports) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {
@@ -27335,7 +27335,7 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"gkKU3":[function(require,module,exports) {
+},{}],"4Cq2J":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27365,7 +27365,7 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"km3Ru":[function(require,module,exports) {
+},{}],"3La0u":[function(require,module,exports) {
 "use strict";
 var Refresh = require("react-refresh/runtime");
 function debounce(func, delay) {
@@ -27485,7 +27485,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"7GWgX":[function(require,module,exports) {
+},{"react-refresh/runtime":"fkNcA"}],"7GWgX":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8b43 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27744,18 +27744,18 @@ $RefreshReg$(_c, "Footer");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../images/socials/devdotto.svg":"69cpV","../images/socials/envelope.svg":"92UhI","../images/socials/github.svg":"vP2m6","../images/socials/instagram.svg":"jH0VA","../images/socials/linkedin.svg":"5XSmz","../images/socials/medium.svg":"cDDa0","../images/socials/twitter.svg":"flM6L","../images/socials/youtube.svg":"hmN7D","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7wKI2":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"670SQ","react":"icvoD","prop-types":"11UVs","../images/socials/devdotto.svg":"eMKeN","../images/socials/envelope.svg":"hYI8r","../images/socials/github.svg":"lE9ov","../images/socials/instagram.svg":"6xLY6","../images/socials/linkedin.svg":"aFMex","../images/socials/medium.svg":"6uNZv","../images/socials/twitter.svg":"6abdv","../images/socials/youtube.svg":"5VHmI","@parcel/transformer-js/src/esmodule-helpers.js":"4Cq2J","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"3La0u"}],"11UVs":[function(require,module,exports) {
 var ReactIs = require("react-is");
 // By explicitly using `prop-types` you are opting into new development behavior.
 // http://fb.me/prop-types-in-prod
 var throwOnDirectAccess = true;
 module.exports = require("./factoryWithTypeCheckers")(ReactIs.isElement, throwOnDirectAccess);
 
-},{"react-is":"7EuwB","./factoryWithTypeCheckers":"bBUgD"}],"7EuwB":[function(require,module,exports) {
+},{"react-is":"eTozb","./factoryWithTypeCheckers":"co373"}],"eTozb":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-is.development.js");
 
-},{"./cjs/react-is.development.js":"5DsXl"}],"5DsXl":[function(require,module,exports) {
+},{"./cjs/react-is.development.js":"6ZHnc"}],"6ZHnc":[function(require,module,exports) {
 /** @license React v16.13.1
  * react-is.development.js
  *
@@ -27911,7 +27911,7 @@ module.exports = require("./cjs/react-is.development.js");
     exports.typeOf = typeOf;
 })();
 
-},{}],"bBUgD":[function(require,module,exports) {
+},{}],"co373":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -28349,7 +28349,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
     return ReactPropTypes;
 };
 
-},{"react-is":"7EuwB","object-assign":"7OXxh","./lib/ReactPropTypesSecret":"jZTZJ","./lib/has":"fqKuf","./checkPropTypes":"5VwyJ"}],"7OXxh":[function(require,module,exports) {
+},{"react-is":"eTozb","object-assign":"cnisT","./lib/ReactPropTypesSecret":"dwQeJ","./lib/has":"jBdON","./checkPropTypes":"1WAIx"}],"cnisT":[function(require,module,exports) {
 /*
 object-assign
 (c) Sindre Sorhus
@@ -28404,7 +28404,7 @@ module.exports = shouldUseNative() ? Object.assign : function(target, source) {
     return to;
 };
 
-},{}],"jZTZJ":[function(require,module,exports) {
+},{}],"dwQeJ":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -28414,10 +28414,10 @@ module.exports = shouldUseNative() ? Object.assign : function(target, source) {
 var ReactPropTypesSecret = "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED";
 module.exports = ReactPropTypesSecret;
 
-},{}],"fqKuf":[function(require,module,exports) {
+},{}],"jBdON":[function(require,module,exports) {
 module.exports = Function.call.bind(Object.prototype.hasOwnProperty);
 
-},{}],"5VwyJ":[function(require,module,exports) {
+},{}],"1WAIx":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -28485,31 +28485,31 @@ printWarning = function(text) {
 };
 module.exports = checkPropTypes;
 
-},{"./lib/ReactPropTypesSecret":"jZTZJ","./lib/has":"fqKuf"}],"69cpV":[function(require,module,exports) {
+},{"./lib/ReactPropTypesSecret":"dwQeJ","./lib/has":"jBdON"}],"eMKeN":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "devdotto.3bb7afaf.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"92UhI":[function(require,module,exports) {
+},{"./helpers/bundle-url":"8fOvo"}],"hYI8r":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "envelope.5e5e1d9e.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"vP2m6":[function(require,module,exports) {
+},{"./helpers/bundle-url":"8fOvo"}],"lE9ov":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "github.51e0fbb2.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"jH0VA":[function(require,module,exports) {
+},{"./helpers/bundle-url":"8fOvo"}],"6xLY6":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "instagram.84def2ad.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"5XSmz":[function(require,module,exports) {
+},{"./helpers/bundle-url":"8fOvo"}],"aFMex":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "linkedin.49c2dcdf.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"cDDa0":[function(require,module,exports) {
+},{"./helpers/bundle-url":"8fOvo"}],"6uNZv":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "medium.6232db8b.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"flM6L":[function(require,module,exports) {
+},{"./helpers/bundle-url":"8fOvo"}],"6abdv":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "twitter.7541cc84.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"hmN7D":[function(require,module,exports) {
+},{"./helpers/bundle-url":"8fOvo"}],"5VHmI":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "youtube.c3557793.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"9Dt2F":[function(require,module,exports) {
+},{"./helpers/bundle-url":"8fOvo"}],"9Dt2F":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$2a62 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28589,7 +28589,7 @@ $RefreshReg$(_c, "Header");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jIEVO":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"670SQ","react":"icvoD","@parcel/transformer-js/src/esmodule-helpers.js":"4Cq2J","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"3La0u"}],"jIEVO":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$0d4d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28713,13 +28713,13 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","../images/woman-with-tablet.jpg":"bEltf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"670SQ","react":"icvoD","../images/down-arrow.svg":"jrouN","prop-types":"11UVs","../images/woman-with-tablet.jpg":"7jEJc","@parcel/transformer-js/src/esmodule-helpers.js":"4Cq2J","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"3La0u"}],"jrouN":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"bEltf":[function(require,module,exports) {
+},{"./helpers/bundle-url":"8fOvo"}],"7jEJc":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "woman-with-tablet.b3bf1156.jpg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"lCaEt":[function(require,module,exports) {
+},{"./helpers/bundle-url":"8fOvo"}],"lCaEt":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ed0d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28883,9 +28883,9 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/design-desk.jpeg":"jSSP3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jSSP3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"670SQ","react":"icvoD","../images/design-desk.jpeg":"33bhg","@parcel/transformer-js/src/esmodule-helpers.js":"4Cq2J","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"3La0u"}],"33bhg":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "design-desk.df4cd0cf.jpeg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
+},{"./helpers/bundle-url":"8fOvo"}],"lW6qc":[function() {},{}]},["if119","1qoee","8lqZg"], "8lqZg", "parcelRequire6158")
 
 //# sourceMappingURL=index.975ef6c8.js.map
